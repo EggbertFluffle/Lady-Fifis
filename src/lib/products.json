@@ -1,0 +1,123 @@
+{   
+    "example": [
+        {
+            "name": "Name of garment that will appear on store page and preview",
+            "id": "id can be any number as long as it matches the name of the images and is unique to other products",
+            "price": "can be any number, add two decimal numbers even if theyre zero in the form 123.00",
+            "size": "should be the size of the garment as ONE LETTER CAPITALIZED (or two as in extras like XL or XXS), will appear on store page and preview. should be the size in the tags array",
+            "condition": "just put he condition of the garment for example, Used - Excellent",
+            "material": "list of materials seperated by commas NOT AN ARRAY",
+            "style": "list of styles seperated by commas NOT AN ARRAY",
+            "color": "Multi, Red",
+            "tags": "SHOULD BE AN ARRAY of strings that represent tags. If its a dress add 'dress' (with double quotes) so it appears when the user filters by 'dress'",
+            "images": "SHOULD BE AN ARRAY of accending numbers starting at 1 representing the number of images for THIS product. Exmaple: [1, 2, 3, 4, 5] would be 5 images",
+            "description": "any description, can be as long as you want"
+        }
+    ],
+    "products": [
+        {
+            "name": "WOMEN'S MULTI JACKET",
+            "id": 1,
+            "price": 300.00,
+            "size": "S",
+            "condition": "Brand new",
+            "material": "Acrylic, Crochet",
+            "style": "Retro, Boho, Rave, Modern, Custom, Handmade",
+            "color": "Multi, Red",
+            "tags": ["new", "small", "red", "multi", "crochet", "jacket"],
+            "images": [1, 2, 3, 4],
+            "description": "UNBELIEVABLE HANDMADE LONG PSYCHEDELIC JACKET! 🍄🌞🌈✨💫\nThis insane long jacket with a psychedelic technicolor floral pattern is perfect for your next festival outing 🌟"
+        },
+        {
+            "name": "Women's \"Wowza!\" Jacket",
+            "id": 2,
+            "price": 425.00,
+            "size": "S",
+            "condition": "Brand new",
+            "material": "Acrylic, Crochet",
+            "style": "Retro, Boho, Rave, Modern, Custom, Handmade",
+            "color": "Red, Yellow",
+            "tags": ["new", "small", "crochet", "jacket", "red", "yellow"],
+            "images": [1, 2, 3, 4],
+            "description": "OUTRAGEOUS HANDMADE LONG PSYCHEDELIC JACKET! 🌹🌞🍄✨💫This swirling long jacket of a mystical sunburst pattern is perfect for your next festival outing🌟"
+        },
+        {
+            "name": "Women's multi Jacket",
+            "id": 3,
+            "price": 300.00,
+            "size": "S",
+            "condition": "Brand new",
+            "material": "Acrylic, Crochet",
+            "style": "Retro, Boho, Fairy, Modern, Handmade, Custom",
+            "color": "Pink, Multi",
+            "tags": ["pink", "multi", "crochet", "jacket", "new", "small"],
+            "images": [1, 2, 3, 4],
+            "description": "UNBELIEVABLE HANDMADE LONG PSYCHEDELIC JACKET! 🌺🌞🌸✨💫This swirling long jacket of mystical flowerful patterns is perfect for your next festival outing 🌟"
+        },
+        {
+            "name": "Women's multi Cardigan",
+            "id": 4,
+            "price": 350.00,
+            "size": "OS",
+            "condition": "Like New",
+            "material": "Acrylic, Cotton, Crochet, Knitted",
+            "style": "Retro, Boho, Avant Garde, Modern, Custom, Handmade",
+            "color": "Purple, Multi",
+            "tags": ["purple", "multi", "crochet", "new", "one size", "cardigan"],
+            "images": [1, 2, 3, 4],
+            "description": "CRAZY PSYCHEDELIC CROCHET CARDIGAN! 🌺💜This oversized wild granny square cardigan is a recreation of one worn by Eric Clapton in 1968!"
+        },
+        {
+            "name": "Women's multi Gilet",
+            "id": 5,
+            "price": 180.00,
+            "size": "OS",
+            "condition": "Like new",
+            "material": "Acrylic, Cotton, Crochet, Knitted",
+            "style": "Retro, Boho, Avant Garde, Modern, Custom, Handmade",
+            "color": "Multi, Black",
+            "tags": ["multi", "black", "gilet", "crochet", "new", "one size"],
+            "images": [1, 2, 3, 4],
+            "description": "“Roll up… The Magical Mystery Tour is waiting to take you away!” ✨This explosion of color in a vest is such a hippie statement."
+        },
+        {
+            "name": "INSANE VTG 60s SQUARE DANCE DRESS!",
+            "id": 6,
+            "price": 85.00,
+            "size": "Other",
+            "condition": "Used - Excellent",
+            "material": "Cotton, Cotton - Organic, Jersey, Polyester",
+            "style": "Retro, Boho, Fairy, 60s, Vintage, Handmade",
+            "color": "Purple",
+            "tags": ["purple", "excellent", "dress", "vintage"],
+            "images": [1, 2, 3, 4],
+            "description": "This huge, billowing purple dress is absolutely incredible with its bishop sleeves and floral pattern. The square dance style skirt has SO much volume - perfect for twirling! 🌸"
+        },
+        {
+            "name": "Women's multi Dress",
+            "id": 7,
+            "price": 55.00,
+            "size": "S",
+            "condition": "Used - Excellent",
+            "material": "Cotton, Cotton - Organic, Jersey, Polyester",
+            "style": "Retro, Boho, Fairy, 60s, Vintage, Handmade",
+            "color": "Blue, Multi",
+            "tags": ["blue", "multi", "excellent", "dress", "vintage"],
+            "images": [1, 2, 3],
+            "description": "INSANE VTG 60s SQUARE DANCE DRESS! 💜✨💫This huge, billowing purple dress is absolutely incredible with its bishop sleeves and floral pattern. The square dance style skirt has SO much volume - perfect for twirling! 🌸"
+        },
+        {
+            "name": "YELLOW FLORAL BABYDOLL MINI DRESS",
+            "id": 8,
+            "price": 12.00,
+            "size": "S",
+            "condition": "Used - Good",
+            "material": "Cotton, Cotton - Organic, Jersey, Polyester",
+            "style": "Boho, Fairy, Western, Modern, Preloved",
+            "color": "Yellow, Multi",
+            "tags": ["yellow", "multi", "good", "dress"],
+            "images": [1, 2, 3, 4],
+            "description": "This adorable little yellow spaghetti-strap mini dress is the perfect hippie-style piece for any hot summer’s day! The dress is cut very loosely, and there are adjustable ties behind the neck."
+        }
+    ]
+}
